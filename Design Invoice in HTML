@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project on Tables in HTML</title>
+	<style type="text/css">
+		table,th,td{
+			border: 1px solid black;
+			border-collapse: collapse;
+			font-size: 24px;
+			padding: 16px;
+
+		}
+		.blue{
+			background-color: lightblue;
+		}
+	</style>
+</head>
+<body>
+	<table width="90%" style="margin-left: auto; margin-right: auto;">
+		<tr class="blue">
+			<th colspan="7">Invoice#12345ABC</th>
+			<th colspan="3">14 July 2020</th>
+		</tr>
+
+		<tr>
+			<td colspan="5">
+				<span>Pay To:<br>The Tech Park<br>123 Willow Sheet<br>Boulevard LA - 567892
+				</span>
+			</td>
+			<td colspan="5">
+				<span>Customer:<br>John Lark<br>Dummy Apartments<br>276 Main Street<br>Boulevard LA - 567892
+				</span>
+			</td>
+		</tr>
+
+		
+
+		<tr class="blue">
+			<td colspan="4"><b>Name/Description</b></td>
+			<td><b>Qty.</b></td>
+			<td colspan="2"><b>MRP</b></td>
+			<td colspan="3"><b>Amount</b></td>
+		</tr>
+
+		<tr>
+			<td colspan="4">Biryani</td>
+			<td>3</td>
+			<td colspan="2">400</td>
+			<td colspan="3">1200</td>
+		</tr>
+
+		<tr>
+			<td colspan="4">Chocolate Shake</td>
+			<td>3</td>
+			<td colspan="2">200</td>
+			<td colspan="3">600</td>
+		</tr>
+
+		<tr>
+			<td class="blue" colspan="7"><b>Subtotal:</b></td>
+			<td colspan="3">1800</td>
+		</tr>
+
+		<tr>
+			<td class="blue" colspan="5"><b>Tax:</b></td>
+			<td>10%</td>
+			<td colspan="3">180</td>
+		</tr>
+
+		<tr>
+			<td class="blue" colspan="7"><b>Grand Total:</b></td>
+			<td colspan="3">1620</td>
+		</tr>
+	</table>
+
+</body>
+</html>
+
+
+
+
+			
+			
