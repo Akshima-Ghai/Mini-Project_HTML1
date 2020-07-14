@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .section {
+    background-color: green;
+  }  
+  
+  #first{
+    background-color: lightgreen;
+  }
+  #second{
+    background-color: lightcoral;
+  }
+  #third{
+    background-color: lightpink;
+  }
+
+</style>
+	<title>skill</title>
+</head>
+<body>
+  <div style="background-color:lightblue; padding:20px; font-size: 30px">
+  <span style="margin:14px; font-size:24px;"><b>Index</b></span>
+  <span style="margin:14px; font-size:24px;"><b>Food</b></span>
+  <span style="margin:14px; font-size:24px;"><b>About</b></span>
+</div>
+<h2>My Favourite Food :</h2>
+<ul>
+  <li><a href="food.html#first">pizza</a></li>
+  <li><a href="food.html#second">pasta</a></li>
+  <li><a href="food.html#third">mojito</a></li>
+</ul>
+<div id="first">
+<h1>PIZZA</h1>
+<center><img src="pizza.jpg" alt="Pizza" width="400"></center>
+<p>a dish of Italian origin, consisting of a flat round base of dough baked with a topping of tomatoes and cheese, typically with added meat, fish, or vegetables.</p>
+</div>
+<div id="second">
+<h1>PASTA</h1>
+<center><img src="pasta.jpg" alt="Pasta" width="400" height="400"></center>
+<p>a dish originally from Italy consisting of dough made from durum wheat and water, extruded or stamped into various shapes and typically cooked in boiling water.</p>
+</div>
+<div id="third">
+<h1>MOJITO</h1>
+<center><img src="mojito.jpg" alt="Pizza" width="400"></center>
+<p>Mojitos tastes like a fizzy mint lime drink that's a bit sweet. You can't taste the rum (which makes it dangerous!!) and it's incredibly refreshing and extremely easy to drink!</p>
+</div>
+</body>
+</html>
