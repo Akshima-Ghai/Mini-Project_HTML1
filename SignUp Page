@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SignUp</title>
+	<style type="text/css">
+		.social{
+			width: 50px;
+			height: 50px;
+			padding-top: 16px;
+			padding-bottom: 16px;
+			padding-left: 32px;
+			padding-right: 32px;
+		}
+
+		form{
+			background-color: white;
+			width: 700px;
+			margin-right: auto;
+			margin-left: auto;
+			border: 1px solid #ccc;
+
+		}
+		body{
+			background-color: #f2f6ff;
+
+		}
+		#input{
+			padding-top: 80px;
+			padding-bottom: 40px;
+			padding-left: 80px;
+			padding-right: 80px;
+		}
+		.input-wrapper{
+			width: 100%
+			font-size: 18px;
+			
+			margin-bottom: 36px;
+			border: 0;
+
+
+		}
+		#btn{
+			
+			padding-top: 12px;
+			padding-left: 24px;
+			padding-right: 24px;
+			font-size: 18px;
+			
+			
+		}
+	</style>
+</head>
+<body >
+	<form> 
+
+		<h1 style="text-align: center; ">
+			Register
+		</h1>
+		<center>
+		<div>
+			<span><img class="social" src="google.png"></span>
+			<span><img class="social" src="facebook.jpg"></span>
+			<span><img class="social" src="github.png"></span>
+			<span><img class="social" src="linkedin.png"></span>
+		</div>
+		<div id="input">
+			<div class="input-wrapper">
+				<input type="text" name="username" placeholder="Username"><br>
+			</div>
+			<div class="input-wrapper">
+				<input type="email" name="Email" placeholder="Email" ><br>
+			</div>
+			<div class="input-wrapper">
+				<input type="password" name="password" placeholder="Password">
+			</div>
+			<div class="input-wrapper">
+				<input type="password" name="confirm-password" placeholder="Confirm Password"><br>
+			</div>
+			<div id="btn">
+				<input type="submit" name="Register" value="Register" ><br>
+			</div>
+		</div>
+		</center>
+	</form>
+
+</body>
+</html>
