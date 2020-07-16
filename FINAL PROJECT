@@ -1,0 +1,378 @@
+<! -- home.html --> 
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Final Project</title>
+	<style type="text/css">
+		#travel{
+			width: 100%;
+		}
+		.place{
+			height: 400px;
+			width: 500px;
+			margin: 32px;
+			padding: 16px;
+
+		}
+		.head{
+			width: 100%;
+			
+			padding: 16px;
+			margin-left: auto;
+			margin-right: auto;
+			font-size: 32px; 
+
+		}
+		#heading{
+			
+			text-align: center;
+			padding: 24px;
+			background-color: #3399FF;
+		}
+	</style>
+</head>
+<body>
+	<div id="heading">
+		<span class="head" style="font: black;"><a href="home.html"><b>HOME</b></a></span>
+		<span class="head"><a href="about.html"><b>ABOUT</b></a></span>
+		<span class="head"><a href="contact.html"><b>CONTACT</b></a></span>
+	</div>
+	<img id="travel" src="travel.jpg">
+	<p style="text-align: center; font-size: 25px;"><b>My Travel Diary</b></p>
+	<div>
+		<span><a href="haridwar.html"><img class="place" src="haridwar.jpg"></a></span>
+		
+		<span><a href="kerela.html"><img class="place" src="kerela.jpg"></a></span>
+
+	</div>
+	<div>
+		<span><a href="manali.html"><img class="place" src="manali.jpg"></a></span>
+		<span><a href="shimla.html"><img class="place" src="shimla.jpeg"></a></span>
+	</div>
+
+</body>
+</html>
+
+
+
+
+
+<!-- about.html -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About</title>
+	<style type="text/css">
+		.head{
+			width: 100%;
+			
+			padding: 16px;
+			margin-left: auto;
+			margin-right: auto;
+			font-size: 32px; 
+
+		}
+		#heading{
+			
+			text-align: center;
+			padding: 24px;
+			background-color: #3399FF;
+		}
+	</style>
+</head>
+<body>
+	<div id="heading">
+		<span class="head" style="font: black;"><a href="home.html"><b>HOME</b></a></span>
+		<span class="head"><a href="about.html"><b>ABOUT</b></a></span>
+		<span class="head"><a href="contact.html"><b>CONTACT</b></a></span>
+	</div>
+	<p style="text-align: center; font-size: 32px;">About our Organisation</p>
+	<div>
+		<span><img src="about.jpg" align="right" style="width: 50%; font-size: 24px;" /></span>
+		<span style="text-align: right;">Travel Tours is the flagship leisure travel brand of FCTG Australia, in India. Known for its range of customized travel offerings, Travel Tours promises 'unbeatable' services both in pricing and quality.
+
+		Currently, there are over 58 Travel Tours stores across all leading cities in India Delhi-NCR, Mumbai, Pune, Ahmedabad, Chandigarh, Bangalore, Hyderabad, Cochin, Chennai and Kolkata among other cities.
+
+		Travel Tours has been formed by bringing together the erstwhile Travel Tours, a strong brand in South India which has been in existence since 1977 and Flight Shop, well-known in North and West India.Travel Tours is the flagship leisure travel brand of FCTG Australia, in India. Known for its range of customized travel offerings, Travel Tours promises 'unbeatable' services both in pricing and quality.
+
+		Currently, there are over 58 Travel Tours stores across all leading cities in India Delhi-NCR, Mumbai, Pune, Ahmedabad, Chandigarh, Bangalore, Hyderabad, Cochin, Chennai and Kolkata among other cities.
+
+		Travel Tours has been formed by bringing together the erstwhile Travel Tours, a strong brand in South India which has been in existence since 1977 and Flight Shop, well-known in North and West India.Travel Tours is the flagship leisure travel brand of FCTG Australia, in India. Known for its range of customized travel offerings, Travel Tours promises 'unbeatable' services both in pricing and quality.
+
+		Currently, there are over 58 Travel Tours stores across all leading cities in India Delhi-NCR, Mumbai, Pune, Ahmedabad, Chandigarh, Bangalore, Hyderabad, Cochin, Chennai and Kolkata among other cities.
+
+		Travel Tours has been formed by bringing together the erstwhile Travel Tours, a strong brand in South India which has been in existence since 1977 and Flight Shop, well-known in North and West India.</span>
+	</div>
+</body>
+</html>
+
+
+
+
+
+<!-- contact.html -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.logo{
+			width: 50px;
+			height: 50px;
+			padding-top: 16px;
+			padding-bottom: 16px;
+			padding-right: 32px;
+			padding-left: 32px;
+		}
+		body{
+			background-color: #f2f6ff;
+
+		}
+		form{
+			background-color: white;
+			width: 700px;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+			border: 1px solid #ccc;
+		}
+		#form-heading{
+			font-size: 32px;
+			padding-top: 56px
+			padding-bottom :32px;
+		}
+		#social-wrapper{
+			background-color: #f2f6ff;
+			padding: 24px;
+		}
+		.input-box{
+			font-size: 18px;
+			padding-bottom: 12px;
+			margin-bottom: 36px;
+			border: 0;
+			width: 100%;
+
+		}
+		.head{
+			width: 100%;
+			
+			padding: 16px;
+			margin-left: auto;
+			margin-right: auto;
+			font-size: 32px; 
+
+		}
+		#heading{
+			
+			text-align: center;
+			padding: 24px;
+			background-color: #3399FF;
+		}
+	</style>
+</head>
+<body>
+	<div id="heading">
+		<span class="head" style="font: black;"><a href="home.html"><b>HOME</b></a></span>
+		<span class="head"><a href="about.html"><b>ABOUT</b></a></span>
+		<span class="head"><a href="contact.html"><b>CONTACT</b></a></span>
+	</div>
+	<form>
+		<h1 id="form-heading">Wanna Come on my Trip! Contact me</h1>
+	
+		
+		<div id="input-wrapper">
+			<div class="input-box">
+				<input type="text" name="username" placeholder="Full Name"></div>
+			<div class="input-box">
+				<input type="email" name="email" placeholder="Email"></div>
+			<div class="input-box">
+				<input type="text" name="contact" placeholder="Contact Number"></div>
+			<div>
+				<input type="submit" name="submit" value="Register">
+			</div>
+			
+		</div>
+	</form>
+</body>
+</html>
+
+
+
+
+
+<!-- haridwar.html -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Haridwar</title>
+	<style type="text/css">
+		.head{
+			width: 100%;
+			
+			padding: 16px;
+			margin-left: auto;
+			margin-right: auto;
+			font-size: 32px; 
+
+		}
+		#heading{
+			
+			text-align: center;
+			padding: 24px;
+			background-color: #3399FF;
+		}
+	</style>
+</head>
+<body>
+	<div id="heading">
+		<span class="head" style="font: black;"><a href="home.html"><b>HOME</b></a></span>
+		<span class="head"><a href="about.html"><b>ABOUT</b></a></span>
+		<span class="head"><a href="contact.html"><b>CONTACT</b></a></span>
+	</div>
+	<img src="haridwar1.jpg" style="width: 100%; height: 400px;">
+	<p style="text-align: center;">HARIDWAR</p>
+	<p>Haridwar also spelled Hardwar, is a city and municipality in the Haridwar district of Uttarakhand, India. With a population of 228,832 in 2011, it is the second largest city in the state and the largest in the district.[3]
+
+The city is situated on the right bank of the Ganga river, at the foothills of the Shivalik ranges.[4] Haridwar is regarded as a holy place for Hindus, hosting important religious events and serving as a gateway to several prominent places of worship. Most significant of the events is the Kumbha Mela, which is celebrated every 12 years in Haridwar. During the Haridwar Kumbh Mela, millions of pilgrims, devotees, and tourists congregate in Haridwar to perform ritualistic bathing on the banks of the river Ganges to wash away their sins to attain Moksha.
+
+According to the Samudra manthan,[5] Haridwar along with Ujjain, Nashik and Prayagraj (Allahabad) is one of four sites where drops of Amrit, the elixir of immortality, accidentally spilled over from the pitcher while being carried by the celestial bird Garuda. Brahma Kund, the spot where the Amrit fell, is located at Har ki Pauri (literally, "footsteps of the Lord") and is considered to be the most sacred ghat of Haridwar.[6] It is also the primary centre of the Kanwar pilgrimage, in which millions of participants gather sacred water from the Ganga and carry it across hundreds of miles to dispense as offerings in Śiva shrines.[7] Today, the city is developing beyond its religious importance, with the fast developing industrial estate of State Industrial Development Corporation of Uttarakhand (SIDCUL), and the close by township of Bharat Heavy Electricals Limited as well as its affiliated ancillaries.
+
+Haridwar presents a kaleidoscope of Indian culture and development. In the sacred writings, it has been differently specified as Kapilsthan, Gangadwar, and Mayapuri. It is additionally a passage for the Chota Char Dham (the four principal pilgrim destinations in Uttarakhand viz, Badrinath, Kedarnath, Gangotri, and Yamunotri), subsequently, Shaivaites (adherents of Lord Shiva) and Vaishnavites (devotees of Lord Vishnu) call this place Hardwar and Haridwar individually, relating to Har being Shiv and Hari being Vishnu.</p>
+</body>
+</html>
+
+
+
+
+
+<!-- shimla.html -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shimla</title>
+	<style type="text/css">
+		.head{
+			width: 100%;
+			
+			padding: 16px;
+			margin-left: auto;
+			margin-right: auto;
+			font-size: 32px; 
+
+		}
+		#heading{
+			
+			text-align: center;
+			padding: 24px;
+			background-color: #3399FF;
+		}
+	</style>
+</head>
+<body>
+	<div id="heading">
+		<span class="head" style="font: black;"><a href="home.html"><b>HOME</b></a></span>
+		<span class="head"><a href="about.html"><b>ABOUT</b></a></span>
+		<span class="head"><a href="contact.html"><b>CONTACT</b></a></span>
+	</div>
+	<img src="shimla1.jpg" style="width: 100%; height: 400px;">
+	<p style="text-align: center;">SHIMLA</p>
+	<p>Shimla also known as Simla, is the capital and the largest city of the Indian state of Himachal Pradesh. In 1864, Shimla was declared as the summer capital of British India, succeeding Murree, northeast of Rawalpindi. After independence, the city became the capital of Punjab and was later made the capital of Himachal Pradesh. It is the principal commercial, cultural and educational centre of the state. It was the capital city of British Burma (present-day Myanmar) from 1942 to 1945.[8]
+
+Small hamlets were recorded prior to 1815 when British forces took control of the area. The climatic conditions attracted the British to establish the city in the dense forests of Himalayas. As the summer capital, Shimla hosted many important political meetings including the Simla Accord of 1914 and the Simla Conference of 1945. After independence, The state of Himachal Pradesh came into being in 1948 as a result of the integration of 28 princely states. Even after independence, the city remained an important political centre, hosting the Simla Agreement of 1972. After the reorganisation of the state of Himachal Pradesh, the existing Mahasu district was named Shimla.
+
+Shimla is home to a number of buildings that are styled in the Tudorbethan and neo-Gothic architectures dating from the colonial era, as well as multiple temples and churches. The colonial architecture and churches, the temples, and the natural environment of the city attracts tourists. Attractions include the Viceregal Lodge, the Christ Church, the Jakhoo Temple, the Mall Road, the Ridge and Annadale which together form the city centre. The Kalka–Shimla Railway line built by the British, a UNESCO World Heritage Site, is also a major tourist attraction. Owing to its steep terrain, Shimla hosts the mountain biking race MTB Himalaya, which started in 2005 and is regarded as the biggest event of its kind in South Asia. Shimla also has the largest natural ice skating rink in South Asia. Apart from being a tourism centre, the city is also an educational hub with a number of colleges and research institutions.</p>
+
+</body>
+</html>
+
+
+
+
+
+<!-- manali.html -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Manali</title>
+	<style type="text/css">
+		.head{
+			width: 100%;
+			
+			padding: 16px;
+			margin-left: auto;
+			margin-right: auto;
+			font-size: 32px; 
+
+		}
+		#heading{
+			
+			text-align: center;
+			padding: 24px;
+			background-color: #3399FF;
+		}
+	</style>
+</head>
+<body>
+	<div id="heading">
+		<span class="head" style="font: black;"><a href="home.html"><b>HOME</b></a></span>
+		<span class="head"><a href="about.html"><b>ABOUT</b></a></span>
+		<span class="head"><a href="contact.html"><b>CONTACT</b></a></span>
+	</div>
+	<img src="manali1.jpg" style="width: 100%; height: 400px;">
+	<p style="text-align: center;">MANALI</p>
+	<p>Manali is a resort town nestled in the mountains of the Indian state of Himachal Pradesh near the northern end of the Kullu Valley in the Beas River Valley. It is located in the Kullu district, about 270 km (168 mi) north of the state capital, Shimla, 309 km (192 miles) north east of Chandigarh and 544 km (338 miles) northeast of Delhi, the national capital. The small town, with a population of 8,096,[1] is the beginning of an ancient trade route to Ladakh and from there over the Karakoram Pass on to Yarkand and Khotan in the Tarim Basin. It is a popular tourist destination and serves as the gateway to Lahaul and Spiti district as well as Leh.
+
+Manali is a cosmopolitan place where Tibetans, Ladakhi, Kashmiri, Kullvi and Lahuli people reside. These people often came to do business at this place and slowly settled here. The main occupation of the local people is Tourism, Farming, Horticulture, handloom industry. The official language of Manali is Hindi but due to its development in tourism, the locals also understand the English language very well. In common parlance, the locals here use the Kullvi dialect also known as Kullu language.[2]</p>
+
+</body>
+</html>
+
+
+
+
+
+<!-- kerela.html -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kerela</title>
+	<style type="text/css">
+		.head{
+			width: 100%;
+			
+			padding: 16px;
+			margin-left: auto;
+			margin-right: auto;
+			font-size: 32px; 
+
+		}
+		#heading{
+			
+			text-align: center;
+			padding: 24px;
+			background-color: #3399FF;
+		}
+	</style>
+</head>
+<body>
+	<div id="heading">
+		<span class="head" style="font: black;"><a href="home.html"><b>HOME</b></a></span>
+		<span class="head"><a href="about.html"><b>ABOUT</b></a></span>
+		<span class="head"><a href="contact.html"><b>CONTACT</b></a></span>
+	</div>
+	<img src="kerela1.jpg" style="width: 100%; height: 400px;">
+	<p style="text-align: center;">KERELA</p>
+	<p>Kerala is a state on the southwestern Malabar Coast of India. It was formed on 1 November 1956, following the passage of the States Reorganisation Act, by combining Malayalam-speaking regions of the erstwhile states of Travancore-Cochin and Madras. Spread over 38,863 km2 (15,005 sq mi), Kerala is the twenty-first largest Indian state by area. It is bordered by Karnataka to the north and northeast, Tamil Nadu to the east and south, and the Lakshadweep Sea[11] to the west. With 33,387,677 inhabitants as per the 2011 Census, Kerala is the thirteenth-largest Indian state by population. It is divided into 14 districts with the capital being Thiruvananthapuram. Malayalam is the most widely spoken language and is also the official language of the state.[12]
+
+The Chera Dynasty was the first prominent kingdom based in Kerala. The Ay kingdom in the deep south and the Ezhimala kingdom in the north formed the other kingdoms in the early years of the Common Era (CE or AD). The region had been a prominent spice exporter since 3000 BCE. The region's prominence in trade was noted in the works of Pliny as well as the Periplus around 100 CE. In the 15th century, the spice trade attracted Portuguese traders to Kerala, and paved the way for European colonisation of India. At the time of Indian independence movement in the early 20th century, there were two major princely states in Kerala-Travancore State and the Kingdom of Cochin. They united to form the state of Thiru-Kochi in 1949. The Malabar region, in the northern part of Kerala, had been a part of the Madras province of British India, which later became a part of the Madras State post-independence. After the States Reorganisation Act, 1956, the modern-day state of Kerala was formed by merging the Malabar district of Madras State (excluding Gudalur taluk of Nilgiris district, Topslip, the Attappadi Forest east of Anakatti), the state of Thiru-Kochi (excluding four southern taluks of Kanyakumari district, Shenkottai and Tenkasi taluks), and the taluk of Kasaragod (now Kasaragod District) in South Canara (Tulunad) which was a part of Madras State.
+
+The economy of Kerala is the 10th-largest in India with ₹7.82 trillion (US$110 billion) in gross state domestic product (GSDP) and a per capita GSDP of ₹204,000 (US$2,900).[2][13] Kerala has the lowest positive population growth rate in India, 3.44%; the highest Human Development Index (HDI), 0.784 in 2018 (0.712 in 2015); the highest literacy rate, 93.91% in the 2011 census; the highest life expectancy, 77 years; and the highest sex ratio, 1,084 women per 1,000 men. The state has witnessed significant emigration, especially to the Arab states of the Persian Gulf during the Gulf Boom of the 1970s and early 1980s, and its economy depends significantly on remittances from a large Malayali expatriate community. Hinduism is practised by more than half of the population, followed by Islam and Christianity. The culture is a synthesis of Aryan, Dravidian, Arab, and European cultures,[14] developed over millennia, under influences from other parts of India and abroad.
+
+The production of pepper and natural rubber contributes significantly to the total national output. In the agricultural sector, coconut, tea, coffee, cashew and spices are important. The state's coastline extends for 595 kilometres (370 mi), and around 1.1 million people in the state are dependent on the fishery industry which contributes 3% to the state's income. The state has the highest media exposure in India with newspapers publishing in nine languages, mainly English and Malayalam. Kerala is one of the prominent tourist destinations of India, with backwaters, hill stations, beaches, Ayurvedic tourism and tropical greenery as its major attractions.</p>
+
+</body>
+</html>
+
+
+
+
